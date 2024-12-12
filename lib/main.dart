@@ -115,7 +115,7 @@ Future<void> _showNotification(RemoteNotification notification) async {
   AwesomeNotifications().createNotification(
     content: NotificationContent(
       id: 10, // Increment or use a unique ID
-      channelKey: 'sos_channel',
+      channelKey: 'sos',
       title: notification.title,
       body: notification.body,
       notificationLayout: NotificationLayout.Default,

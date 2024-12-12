@@ -137,10 +137,7 @@ class _AdminLoginState extends State<AdminLogin> {
                         _formKey.currentState!.save();
                         if (_email == "admin123@gmail.com" &&
                             _password == "admin123") {
-
-
                           // save location
-
                           await saveLocationAndLoginState(country.text, state.text, city.text);
 
                           Utils.showSnackbar(
